@@ -1,6 +1,8 @@
 package br.com.fabricadeprogramador.persistencia.entidade;
 
-import java.util.Date;
+import java.sql.Date;
+
+//import java.util.Date;
 
 public class Venda {
 	
@@ -23,8 +25,8 @@ public class Venda {
 	public Date getData() {
 		return data;
 	}
-	public void setData(Date data) {
-		this.data = data;
+	public void setData(Date date) {
+		this.data =  date;
 	}
 	
 	
